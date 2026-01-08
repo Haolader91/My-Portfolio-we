@@ -57,6 +57,21 @@
   color: white;
   cursor: pointer;
 }
+.about-heading{
+  max-width: 827px;
+  text-align: center;
+}
+.about-heading h2{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.about-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
+}
 /* nva bar close */
 #banar{
   margin: 47px 38px 0px 230px;
@@ -87,5 +102,31 @@
 .banar-image img{
   max-width: 584px;
   vertical-align: middle;
-
+}
+/* About section */
+#about-section{
+  padding-top: 230px;
+  /* background-color: #e5670d; */
+}
+.about-container{
+  width: 71%;
+  max-width: 1637px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 130px 157px;
+}
+.about-into{
+  display: flex;
+  justify-content: space-around;
+}
+.about-into p{
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+.abouto-into h4{
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
 }
