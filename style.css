@@ -60,6 +60,7 @@
 .about-heading{
   max-width: 827px;
   text-align: center;
+  margin: 0 auto;
 }
 .about-heading h2{
   font-size: 35px;
@@ -105,7 +106,7 @@
 }
 /* About section */
 #about-section{
-  padding-top: 230px;
+  padding-top: 130px;
   /* background-color: #e5670d; */
 }
 .about-container{
@@ -129,4 +130,37 @@
   font-size: 20px;
   font-weight: bold;
   color: #474747;
+}
+/* skils card section  */
+#skills{
+  padding-top: 130px;
+}
+.skills-containt{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.skills-box{
+  display: flex;
+  gap: 24px;
+}
+.skills-card{
+  padding: 30px;
+  max-width: 267px;
+  box-shadow: 0 4px 40px 0 #0000000b;
+}
+.skills-card iamg{
+  max-width: 44px;
+  margin-bottom: 30px;
+}
+.skills-card h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skills-card p{
+  font-size: 16px;
+  color: #757575;
+  line-height: 28px;
 }
